@@ -1,1 +1,69 @@
-<>
+# PROJETO DE INTEGRAÇÃO DO CÓDIGO FONTE DO PYTHON DE UM SISTEMA DE GESTÃO DE TABELAS DE UM CAMPEONATO DE EQUIPES COM AS INTERFACES DO QTDESGINER:
+
+from datetime import date
+import string
+import time
+from xmlrpc.client import boolean
+
+
+class Equipe:
+    def __init__(self, nome_equipe: str, equipe: int) -> None:
+        self.nome_equipe = nome_equipe
+        self.equipe = equipe
+        self.jogos = 0
+        self.vitoria = 0
+        self.empates = 0
+        self.pontos = 0
+    
+    def alterarNome(self, nome_equipe: str, id: int):
+        self.nome_equipe = nome_equipe
+        self.id = id
+    
+    def excluirEquipe(self, nome_equipe, id: int):
+        self.nome_equipe -= nome_equipe
+        self.id.alterarNome(f"equipe excluída é{id}")
+
+
+class Jogos:
+    def __init__(self):
+        self.__equipe: str = []
+        self.data_jogo: date
+        self.horario_jogo: time
+        self.placar: string
+    
+
+    def equipeVencedora(self, equipe: str):
+        self.__equipe.append(equipe)
+
+
+    def empatar(self, jogos: bool):
+        if(self.__equipe < jogos):
+            return False
+        else:
+            self.__equipe += 1
+            self.__equipe(f"Equipe ficou só {jogos}")
+            return True
+
+
+class Nome_equipes(Equipe):
+    def __init__(self, nome_equipe: str, equipe: int) -> None:
+        super().__init__(nome_equipe, equipe)
+        self._nome_equipe = nome_equipe
+        self._equipe = ""
+
+    @property
+    def exibirEquipes(self):
+        return self._nome_equipe
+
+    def adicionar_jogo(self, gols_pro, gols_contra):
+        self.jogos += 1
+        self.gols_pro += gols_pro
+        self.gols_contra += gols_contra
+        if gols_pro > gols_contra:
+            self.vitorias += 1
+            self.pontos += 3
+        elif gols_pro == gols_contra:
+            self.empates += 1
+            self.pontos += 1
+        else:
+            self.derrotas += 1
