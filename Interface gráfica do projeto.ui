@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>622</width>
+    <height>467</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>451</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>jogo1</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>jogo 2</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>jogo 3</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>jogo 4</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Partidas</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Horário da partida</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Data da partida</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Placar da partida</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Alemanha x Argentina</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>15:00 P.m</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>20/09/1988</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>190</y>
+      <width>341</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>622</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
