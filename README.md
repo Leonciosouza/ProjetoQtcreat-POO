@@ -20,7 +20,20 @@
  
 **O sistema em questão teve seu início no dia 24 de janeiro de 2023 e sua finalização no dia 06 de fevereiro de 2023. Inicialmente, de forma manual, utilizando papel e caneta realizamos a criação das telas que seriam apresentadas, por conseguinte iniciamos a criação das telas no QT designer e realizamos a divisão de tarefas para os componentes do grupo, ao longo das semanas foram realizadas melhorias, tanto no código python, quanto na interface juntamente com a criação dos diagramas (de caso de uso e  de classes UML)para melhor entendimento da aplicação.**
 
-Abaixo se tem o diagrama de casos de uso UML que foi utilizado para desenvolvimento do código em python:
+Segue abaixo imagens da aplicação:
+
+  ## Tela de cadastro das equipes:
+  
+![image](https://user-images.githubusercontent.com/115077376/217274398-f79637fd-d503-43a3-9cf2-9c635b4ae8aa.png)
+
+  ## Tabelas de jogos:
+  
+![image](https://user-images.githubusercontent.com/115077376/217275414-542cc6ba-e6bc-4cba-b2c9-7bf0e7cedba3.png)
+
+## Diagrama de casos de uso UML 
+
+> Utilizado para desenvolvimento do código em python.
+
 ![image](https://user-images.githubusercontent.com/115077376/217119249-087b2dc3-97be-4f2a-8011-28bfdd22e998.png)
 Dentro do diagrama temos as seguintes classes:
 - Equipe:
@@ -46,12 +59,14 @@ Dentro do diagrama temos as seguintes classes:
   - -nomeEquipe: string (atributo), exibir as equipes;
   - +somarPontos() (método), somar os pontos dos vencedores e dos empates para saber o total de pontos. 
  
-Além do diagrama de classes, temos o diagrama de casos de uso, que é apresentado logo abaixo:
+## Diagrama de casos de uso
+
 ![image](https://user-images.githubusercontent.com/115077376/217124006-52bdccf7-d4de-411a-b4f0-a72583e90f1a.png)
 
 O diagram em questão demonstra a funcionalidade do sistema, os atores são o usuário que irá registrar as equipes, as datas, os horários e os placares do duelo. Já o sistema de jogos irá guardar as informações, os nomes das equipes, os vencedores(ou empate) assim somando os pontos. Também realizará a geração dos duelos com as equipes que foram registradas.  
 
-Modelo Relacional do banco de dados: 
+## Modelo Relacional do banco de dados: 
+
 ![image](https://user-images.githubusercontent.com/115077376/217263966-c41171d2-8521-469b-a3c9-b4cf3af5ceff.png)
 
 
