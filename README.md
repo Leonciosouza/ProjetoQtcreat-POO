@@ -34,7 +34,7 @@ Dentro do diagrama temos as seguintes classes:
   - +exibirEquipes() (método), mostrar as equipes na tela.
   
 - Jogos:
-  - -equipes: equipe[] (atributo), gerar jogos entre duas equipes;
+  - -equipes: equipe[ ] (atributo), gerar jogos entre duas equipes;
   - -dataJogo: date (atributo), data em que jogo ocorrerá;
   - -horarioJogo: time (atributo), hora em que irá acontecer;
   - -placar: string (atributo), colocar o placar final;
