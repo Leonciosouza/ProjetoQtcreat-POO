@@ -51,7 +51,8 @@ Além do diagrama de classes, temos o diagrama de casos de uso, que é apresenta
 
 O diagram em questão demonstra a funcionalidade do sistema, os atores são o usuário que irá registrar as equipes, as datas, os horários e os placares do duelo. Já o sistema de jogos irá guardar as informações, os nomes das equipes, os vencedores(ou empate) assim somando os pontos. Também realizará a geração dos duelos com as equipes que foram registradas.  
 
-
+Modelo Relacional do banco de dados: 
+![image](https://user-images.githubusercontent.com/115077376/217263966-c41171d2-8521-469b-a3c9-b4cf3af5ceff.png)
 
 
 
