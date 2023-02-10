@@ -23,7 +23,7 @@
 # Imagens da aplicação:
   ## Tela Principal Cadastro de Equipes:
   
-  ![imagem tela cadastro](Print_telas_sistema/Print01_tela_de _cadastro.PNG)
+  ![imagem](Print_telas_sistema/Print01_tela_de _cadastro.PNG)
 
   ## Cadastro das equipes tela como sugestão de alternativa para o Sistema do Proj.:
   
