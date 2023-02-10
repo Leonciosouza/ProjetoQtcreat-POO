@@ -21,8 +21,11 @@
 **O sistema em questão teve seu início no dia 24 de janeiro de 2023 e sua finalização no dia 06 de fevereiro de 2023. Inicialmente, de forma manual, utilizando papel e caneta realizamos a criação das telas que seriam apresentadas, por conseguinte iniciamos a criação das telas no QT designer e realizamos a divisão de tarefas para os componentes do grupo, ao longo das semanas foram realizadas melhorias, tanto no código python, quanto na interface juntamente com a criação dos diagramas (de caso de uso e  de classes UML)para melhor entendimento da aplicação.**
 
 # Imagens da aplicação:
+  ## Tela Principal Cadastro de Equipes:
+  
+  ![imagem tela cadastro](Print01_tela_de _cadastro.PNG)
 
-  ## Cadastro das equipes:
+  ## Cadastro das equipes tela como sugestão de alternativa para o Sistema do Proj.:
   
 ![image](https://user-images.githubusercontent.com/115077376/217274398-f79637fd-d503-43a3-9cf2-9c635b4ae8aa.png)
 
