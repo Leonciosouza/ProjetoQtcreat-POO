@@ -28,6 +28,10 @@
   ## Tela de Login criada para ter acesso a Lista de Equipes:
   
   ![image](Print_telas_sistema/print03_tela_de_login.PNG)
+  
+  ## Tela da Lista de Equipes numa relação ordenada de inserção:
+  
+  ![image](Print_telas_sistema/Print02_tela_de_listaequipes.PNG)
 
   ## Cadastro das equipes tela como sugestão de alternativa para o Sistema do Proj.:
   
