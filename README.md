@@ -24,6 +24,10 @@
   ## Tela Principal Cadastro de Equipes:
   
   ![image](Print_telas_sistema/Print01_tela_de_cadastro.PNG)
+  
+  ## Tela de Login criada para ter acesso a Lista de Equipes:
+  
+  ![image](Print_telas_sistema/print03_tela_de_login.PNG)
 
   ## Cadastro das equipes tela como sugestão de alternativa para o Sistema do Proj.:
   
